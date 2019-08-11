@@ -17,8 +17,6 @@ public:
 	LinkedList() : head(NULL), tail(NULL) {}
 
 	void push(int val);
-	// int size(); = > HOMEWORK
-	// void insert(int val, int position); = > DIRECTIONS HOMEWORK
 	void print();
 	bool isEmpty();
 };
